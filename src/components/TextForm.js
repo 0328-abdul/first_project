@@ -34,10 +34,10 @@ export default function TextForm(props) {
                 <div className="form-group purple-border mb-2">
                     <textarea className="form-control" value={text} onChange={handleOnChange} style={{ fontFamily: font }} id="exampleFormControlTextarea4" rows="8"></textarea>
                 </div>
-                <button className='btn btn-sm btn-primary mx-1' onClick={handleUpClick}>Uppercase</button>
-                <button className='btn btn-sm btn-primary mx-1' onClick={handleLowClick}>Lowercase</button>
-                <button className='btn btn-sm btn-danger mx-1' onClick={handleClearClick}>Clear Text</button>
-                <button className='btn btn-sm btn-success mx-1' onClick={handleFont}>Change Font</button>
+                <button className='btn btn-sm btn-primary mx-1 my-1' onClick={handleUpClick}>Uppercase</button>
+                <button className='btn btn-sm btn-primary mx-1 my-1' onClick={handleLowClick}>Lowercase</button>
+                <button className='btn btn-sm btn-danger mx-1 my-1' onClick={handleClearClick}>Clear Text</button>
+                <button className='btn btn-sm btn-success mx-1 my-1' onClick={handleFont}>Change Font</button>
             </div>
             <div className="container my-3">
                 <h4>Your Text Summary</h4>

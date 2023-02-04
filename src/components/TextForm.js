@@ -41,7 +41,7 @@ export default function TextForm(props) {
             </div>
             <div className="container my-3">
                 <h4>Your Text Summary</h4>
-                <p>{text.split(" ").filter((element) => { return element.length != 0 }).length} words and {text.length} characters..</p>
+                <p>{text.split(" ").filter((element) => { return element.length !== 0 }).length} words and {text.length} characters..</p>
                 <p>An average reader can read this in {(text === '' ? 0 : text.split(" ").length * 0.0033 * 60).toFixed(3)} seconds..</p>
             </div>
         </>

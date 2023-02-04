@@ -26,13 +26,16 @@ function App() {
     if (mode === 'dark') {
       setMode('light')
       setModeText('dark')
-      document.body.style.backgroundColor = 'white';
-      document.body.style.color = 'black';
+      // document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'white';
+      document.body.style.backgroundImage = "url('https://www.teahub.io/photos/full/319-3197901_snow-wolf-wallpaper-hd.jpg')";
+      document.body.style.backgroundSize = "cover";
       showAlert('Dark mode has been disabled', 'danger')
     } else {
       setMode('dark')
       setModeText('light')
       document.body.style.backgroundColor = '#042743';
+      document.body.style.backgroundImage = "url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700025494.jpg')";
       document.body.style.color = 'white';
       showAlert('Dark mode has been enabled', 'success')
     }

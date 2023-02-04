@@ -45,7 +45,7 @@ export default function TextForm(props) {
             <div>
                 <button className='btn btn-sm btn-success mx-1' onClick={handleFont}>Change Font</button>
             </div>
-            <div>
+            <div className='mt-4'>
                 <button className='btn btn-sm btn-success mx-1' onClick={handleFont}>Change Font</button>
             </div>
             <div className="container my-3">
